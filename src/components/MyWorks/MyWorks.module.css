@@ -1,5 +1,4 @@
 .myWorksBlock {
-  height: 100vh;
   background-color: rgba(8, 8, 231, 0.76);
 }
 
@@ -8,7 +7,7 @@
   justify-content: flex-start;
 }
 
-.title{
+.title {
   background-color: rgba(128, 128, 128, 0.822);
 }
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Contacts } from './components/Contacts/Contacts';
+import { Footer } from './components/Footer/Footer';
 import { Header } from './components/Header/Header';
 import { Main } from './components/Main/Main';
 import { MyWorks } from './components/MyWorks/MyWorks';
@@ -12,7 +13,8 @@ const App = () => {
       <Main />
       <Skills />
       <MyWorks />
-      <Contacts/>
+      <Contacts />
+      <Footer />
     </div>
   );
 };
