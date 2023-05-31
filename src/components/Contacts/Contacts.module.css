@@ -2,6 +2,10 @@
   background-color: rgba(73, 1, 1, 0.404);
 }
 
+.contactsBlock h2 {
+  background-color: bisque;
+}
+
 .contactsContainer {
   border: 1px solid;
   min-height: 50vh;
@@ -17,6 +21,7 @@
 .contactForm {
   height: 250px;
   max-width: 300px;
+  width: 100%;
 }
 
 .contactForm form {
@@ -28,7 +33,9 @@
 }
 
 .contactsBlock button {
-  padding: 12px 50px;
   font-weight: bold;
   font-size: large;
+  height: 50px;
+  max-width: 150px;
+  width: 100%;
 }
