@@ -1,4 +1,4 @@
-.work {
+.project {
   width: 400px;
   background-color: rgba(137, 240, 4, 0.411);
   display: flex;
@@ -6,12 +6,12 @@
  
 }
 
-.work h3 {
+.project h3 {
   padding-left: 10px;
   
 }
 
-.work span {
+.project span {
   padding-left: 10px;
   padding-bottom: 10px;
 }

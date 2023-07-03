@@ -1,17 +1,13 @@
-.myWorksBlock {
-  background-color: rgba(8, 8, 231, 0.76);
-}
-
-.myWorksContainer {
+.myProjectsContainer {
   flex-direction: column;
   justify-content: flex-start;
 }
 
 .title {
-  background-color: rgba(128, 128, 128, 0.822);
+
 }
 
-.works {
+.projects {
   width: 100%;
   display: flex;
   justify-content: space-around;

@@ -1,4 +1,4 @@
-import s from './Work.module.css';
+import s from './Project.module.css';
 
 type WorkType = {
   imgSrc: string;
@@ -6,9 +6,9 @@ type WorkType = {
   description: string;
 };
 
-export const Work = ({ imgSrc, title, description }: WorkType) => {
+export const Project = ({ imgSrc, title, description }: WorkType) => {
   return (
-    <div className={s.work}>
+    <div className={s.project}>
       <div
         className={s.iconAndButton}
         style={{ backgroundImage: 'url(' + imgSrc + ')' }}

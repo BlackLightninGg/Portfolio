@@ -1,21 +1,21 @@
-import s from './MyWorks.module.css';
+import s from './Projects.module.css';
 import styleContainer from '../../common/styles/Container.module.css';
-import { Work } from './Work/Work';
+import { Project } from './Project/Project';
 
-export const MyWorks = () => {
+export const Projects = () => {
   return (
     <div className={s.myWorksBlock}>
-      <div className={`${styleContainer.container} ${s.myWorksContainer}`}>
-        <h2 className={s.title}>Works</h2>
-        <div className={s.works}>
-          <Work
+      <div className={`${styleContainer.container} ${s.myProjectsContainer}`}>
+        <div className={s.title}><h2>Projects</h2></div>
+        <div className={s.projects}>
+          <Project
             imgSrc={
               'https://avatanplus.com/files/resources/mid/5a85ac6ddd1d81619a298d52.png'
             }
             title="Cats"
             description="Cats (also known as the domestic cat or house cat to distinguish it from other felids), is a small domesticated carnivorous mammal that is valued by humans for its companionship and its ability to hunt vermin and household pests."
           />
-          <Work
+          <Project
             imgSrc={
               'https://sun9-35.userapi.com/impf/c621729/v621729758/d03e/Tc8PXb4iw44.jpg?size=400x291&quality=96&sign=b878e85a966dc3d6e52beb1675ab12ed&c_uniq_tag=AHJIuhGy9n1jhW3nv_Mfu_RCzXAFXh5GvRrfkWGlFXY&type=album'
             }
