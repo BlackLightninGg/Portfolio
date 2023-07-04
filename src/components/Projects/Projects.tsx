@@ -1,12 +1,13 @@
 import s from './Projects.module.css';
 import styleContainer from '../../common/styles/Container.module.css';
 import { Project } from './Project/Project';
+import { Title } from '../../common/components/title/Title';
 
 export const Projects = () => {
   return (
     <div className={s.myWorksBlock}>
       <div className={`${styleContainer.container} ${s.myProjectsContainer}`}>
-        <div className={s.title}><h2>Projects</h2></div>
+        <Title text="Projects" />
         <div className={s.projects}>
           <Project
             imgSrc={

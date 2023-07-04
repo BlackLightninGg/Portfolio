@@ -1,14 +1,17 @@
+import { Title } from '../../common/components/title/Title';
 import s from './Contacts.module.css';
+import styleContainer from '../../common/styles/Container.module.css';
+
 
 export const Contacts = () => {
   return (
     <div className={s.contactsBlock}>
-      <div className={s.contactsContainer}>
-        <h2>Contacts</h2>
+      <div className={`${styleContainer.container} ${s.contactsContainer}`}>
+        <Title text="Contacts" />
         <div className={s.contactForm}>
           <form action="#">
-            <input type="text"  />
-            <input type="text"  />
+            <input type="text" />
+            <input type="text" />
             <textarea name="" id="" cols={30} rows={10}></textarea>
             <button type='submit'>Send</button>
           </form>

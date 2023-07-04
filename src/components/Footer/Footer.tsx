@@ -1,11 +1,12 @@
 import s from './Footer.module.css';
 import styleContainer from '../../common/styles/Container.module.css';
+import { Title } from '../../common/components/title/Title';
 
 export const Footer = () => {
   return (
     <div className={s.footerBlock}>
       <div className={`${styleContainer.container} ${s.footerContainer}`}>
-        <h2>Fedorov Aleksey</h2>
+      <Title text="Fedorov Aleksey" />
         <div className={s.icons}>
           <img
             className={s.icon}

@@ -1,11 +1,17 @@
 .skillsContainer {
+  /* position: relative; */
   flex-direction: column;
   justify-content: flex-start;
   min-height: 60vh;
 }
 
-.title {
-}
+/* .skillsContainer::before {
+  position: absolute;
+  content: "";
+  background: #121415;
+  width: 100%;
+  height: 1px;
+} */
 
 .skills {
   width: 100%;
