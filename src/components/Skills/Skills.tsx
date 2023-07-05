@@ -18,9 +18,17 @@ export const Skills = () => {
             description="ChatGPT is a conversational AI model developed by OpenAI based on the Generative Pretrained Transformer 3 (GPT-3) architecture."
           />
           <Skill
-            title="Mobx"
+            title="REST API"
             description="MobX is a state management library for JavaScript applications. It provides a simple and scalable way to manage the state of your application and keep it in sync with the user interface."
           />
+           <Skill
+            title="Redux"
+            description="MobX is a state management library for JavaScript applications. It provides a simple and scalable way to manage the state of your application and keep it in sync with the user interface."
+          /> 
+          <Skill
+          title="Mobx"
+          description="MobX is a state management library for JavaScript applications. It provides a simple and scalable way to manage the state of your application and keep it in sync with the user interface."
+        />
         </div>
       </div>
     </div>

@@ -18,3 +18,7 @@ h2 {
   color: #c4cfde;
   margin-bottom: 0;
 }
+
+h1, h2 , h3 , h4 , h5, h6, p, span, text {
+  line-height:1.9;
+}
