@@ -1,11 +1,23 @@
 .myProjectsContainer {
   flex-direction: column;
-  justify-content: flex-start;
+  padding-bottom: 62px;
+}
+
+.myProjectsContainer::before{
+  content: "";
+  background: #121415;
+  width: 100%;
+  height: 1px;
+  margin:33px 0 62px 0;
 }
 
 .projects {
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
+}
+
+.myProjectsContainer::before {
+  margin-bottom: 62px;
 }
