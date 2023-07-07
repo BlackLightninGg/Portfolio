@@ -3,11 +3,11 @@
 }
 
 .text {
-  display: table-cell;
-  vertical-align: top;
+  display: flex;
   width: 60.863%;
   padding: 10px;
-  align-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .subtitle {
@@ -35,9 +35,14 @@ h1 {
 
 p {
   color: #878e99;
+  padding-right: 16%;
+  line-height: 30px;
 }
 
 .wrapperPhoto {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
   position: relative;
   z-index: 2;
   width: 38.469%;
@@ -61,4 +66,29 @@ p {
   height: auto;
   max-width: 100%;
   vertical-align: middle;
+}
+
+@media screen and (max-width: 1024px) {
+
+  .mainContainer{
+    flex-direction: column-reverse;
+  }
+
+  .wrapperPhoto {
+    width: 100%;
+    justify-content: center;
+  }
+
+  h1,
+  .name {
+    font-size: 50px;
+    line-height: 1.2;
+  }
+
+  .text {
+    width: auto;
+  }
+
+  .p {
+  }
 }
