@@ -6,11 +6,25 @@ export const Main = () => {
     <div className={s.mainBlock}>
       <div className={`${styleContainer.container} ${s.mainContainer}`}>
         <div className={s.text}>
-          <span>Hi There!</span>
-          <h1>I am Aleksey Fedorov</h1>
-          <p>Frontend Developer.</p>
+          <span className={s.subtitle}>Welcome everyone</span>
+          <h1>Hi, I’m <span className={s.name}>Aleksey Fedorov</span> <br /> a Frontend Developer.</h1>
+          <p>I have experience
+            in creating SPA with
+            React, Redux, TypeScript.
+            Now I am improving my
+            skills in this direction and
+            expanding them with new
+            technologies. I spend my
+            leisure time with educational
+            books, solving tasks on
+            Codewars and also improving
+            my English. Open for your
+            suggestions.</p>
         </div>
-        <div className={s.photo}></div>
+        <div className={s.wrapperPhoto}>
+          <div className={s.thumbnail}></div>
+          <img className={s.photo} src="https://rainbowit.net/themes/inbio/wp-content/uploads/2021/08/banner-01.png" alt="#" />
+          </div>
       </div>
     </div>
   );

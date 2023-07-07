@@ -11,9 +11,7 @@ export const Project = ({ imgSrc, title, description }: WorkType) => {
     <div className={s.project}>
       <div
         className={s.iconAndButton}
-        style={{ backgroundImage: 'url(' + imgSrc + ')' }}
-      >
-        {/* <img src={imgSrc} alt="#" /> */}
+        style={{ backgroundImage: `url(${imgSrc})` }}>
         <a href="#">View</a>
       </div>
       <h3>{title}</h3>

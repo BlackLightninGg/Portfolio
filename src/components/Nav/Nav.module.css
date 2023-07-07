@@ -1,5 +1,16 @@
 .nav {
-  width: 300px;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: -24px;
+}
+
+a{
+  font-family: 'Montserrat', sans-serif;
+  font-weight:400;
+  font-size: 13px;
+  color: #c4cfde;
+  transition:5s;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
 }
