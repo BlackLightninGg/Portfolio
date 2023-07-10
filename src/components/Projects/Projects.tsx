@@ -7,7 +7,7 @@ export const Projects = () => {
   return (
     <div className={s.myWorksBlock}>
       <div className={`${styleContainer.container} ${s.myProjectsContainer}`}>
-        <Title text="Projects" />
+        <Title subtitle="Visit my projects" title="Projects" />
         <div className={s.projects}>
           <Project
             imgSrc='https://avatanplus.com/files/resources/mid/5a85ac6ddd1d81619a298d52.png'
