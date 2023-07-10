@@ -7,8 +7,8 @@ export const Main = () => {
       <div className={`${styleContainer.container} ${s.mainContainer}`}>
         <div className={s.text}>
           <span className={s.subtitle}>Welcome everyone</span>
-          <h1>Hi, I’m <span className={s.name}>Aleksey Fedorov</span> <br /> a Frontend Developer.</h1>
-          <p>I have experience
+          <h1 className={s.title}>Hi, I’m <span className={s.name}>Aleksey Fedorov</span> <br /> a Frontend Developer.</h1>
+          <p className={s.description}>I have experience
             in creating SPA with
             React, Redux, TypeScript.
             Now I am improving my

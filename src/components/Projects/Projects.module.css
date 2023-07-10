@@ -3,12 +3,12 @@
   padding-bottom: 62px;
 }
 
-.myProjectsContainer::before{
+.myProjectsContainer:before {
   content: "";
   background: #121415;
   width: 100%;
   height: 1px;
-  margin:33px 0 62px 0;
+  margin: 33px 0 62px 0;
 }
 
 .projects {
@@ -16,8 +16,4 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-}
-
-.myProjectsContainer::before {
-  margin-bottom: 62px;
 }

@@ -7,7 +7,7 @@ export const Contacts = () => {
   return (
     <div className={s.contactsBlock}>
       <div className={`${styleContainer.container} ${s.contactsContainer}`}>
-        <Title text="Contacts" />
+        <Title subtitle="Contact" title="Contact With Me" />
         <div className={s.contactForm}>
           <form action="#">
             <input type="text" />

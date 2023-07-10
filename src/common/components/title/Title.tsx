@@ -1,13 +1,15 @@
 import s from './Title.module.css';
 
 type TitleType = {
-  text: string
+  subtitle: string
+  title: string
 }
 
-export const Title = ({ text }: TitleType) => {
+export const Title = ({ subtitle, title }: TitleType) => {
   return (
-    <div >
-      <h2 className={s.title}>{text}</h2>
+    <div className={s.titleContainer} >
+      <span className={s.subtitle}>{subtitle}</span>
+      <h2 className={s.title}>{title}</h2>
     </div>
   );
 };

@@ -6,7 +6,7 @@ export const Footer = () => {
   return (
     <div className={s.footerBlock}>
       <div className={`${styleContainer.container} ${s.footerContainer}`}>
-      <Title text="Fedorov Aleksey" />
+      <Title subtitle="Footer" title="Fedorov Aleksey" />
         <div className={s.icons}>
           <img
             className={s.icon}
