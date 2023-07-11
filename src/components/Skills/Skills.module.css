@@ -27,3 +27,17 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
+
+@media screen and (max-width: 800px) {
+
+  .skillsContainer h2,
+  .skillsContainer span {
+    text-align: center;
+  }
+
+  .skills {
+    justify-content: center;
+  }
+
+}
