@@ -8,14 +8,19 @@ type WorkType = {
 
 export const Project = ({ imgSrc, title, description }: WorkType) => {
   return (
-    <div className={s.project}>
-      <div
-        className={s.iconAndButton}
-        style={{ backgroundImage: `url(${imgSrc})` }}>
-        <a href="#">View</a>
+  //  <div className={s.projectContainer}>
+      <div className={s.project}>
+        <div
+          className={s.iconAndButton}
+          style={{ backgroundImage: `url(${imgSrc})` }}>
+          <a href="#">View</a>
+        </div>
+        <div>
+        <h3 className={s.title}>{title}</h3>
+        <p className={s.description}>{description}</p>
+        </div>
+       
       </div>
-      <h3>{title}</h3>
-      <span>{description}</span>
-    </div>
+      // </div>
   );
 };
